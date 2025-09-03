@@ -1,0 +1,123 @@
+/* Header: makes (logo, input, nav) align horizontally */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 20px;
+    background-color: palevioletred;
+}
+
+/* Logo */
+.logo {
+    height: 40px;
+    flex-shrink: 0;
+}
+
+/* Search input */
+.form-control {
+    flex: 1;
+    padding: 8px 15px;
+    border: 1px solid lightcoral;
+    border-radius: 20px;
+    background-color: rgb(232, 238, 240);
+}
+
+/* Nav list */
+ul.ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+}
+.navbar-ul{
+    display: inline;
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+    gap: 20px;
+}
+.nav-item:hover{
+    color: #66cdea;
+}
+
+/* Nav items */
+ul.ul li {
+    background-color: rgb(242, 212, 135);
+    color: black;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+ul.ul li:hover {
+    background-color: #66cdea;
+}
+
+ul.ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+marquee.mq{
+    background-color: rgb(242, 236, 168);
+    padding: 6px;
+    font-style:oblique;
+    font-weight:bolder;
+    font-size:large;
+}
+a{
+    color:black;
+}
+/* Card hover effect */
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    transform: translateY(-4px) scale(1.03);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+/* Card container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows cards to wrap to next line */
+}
+
+/* Card */
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+/* Card image */
+.card-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Card title */
+.card-title {
+    margin-top: 10px;
+    font: -10px;
+size: 1.2em;
+}
+.navbar-brand{
+    color: rgb(243, 108, 108);
+    font-weight: 800 !important;
+    font-size: 25px;
+    margin-left: 2rem;
+
+}
+.btn-last{
+    text-align: center;
+    
+}

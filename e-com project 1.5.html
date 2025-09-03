@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Add Bootstrap CDN for styling (if not already included) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar (same as previous page) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+  <div class="container">
+    <a class="navbar-brand" href="#">E-Commerce</a>
+   
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="e-com project 1.1.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#items">Items</a></li>
+        <li class="nav-item"><a class="nav-link" href="#details">Details</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cart">Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Item Details Section -->
+<section id="item-details" class="bg-light ">
+  <div class="container">
+    <div class="row">
+      <!-- Left: Image & Buttons in Flexbox -->
+      <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+        <div class="d-flex flex-column align-items-center">
+          <div class="mb-3" style="width:300px;height:400px;overflow:hidden;">
+            <img src="Reese's Overload Ice Cream Sundae Cake 4.jfif" style="width:100%;height:100%;object-fit:cover;" alt="Item Image">
+          </div>
+          <div class="d-flex gap-3">
+            <button class="btn btn-success"><a href="e-com project buy1.2.html" style=" text-decoration: none; color: white;">Buy Now</a></button>
+            <button class="btn btn-primary"><a href="e-com project cart1.5.html" style=" text-decoration: none; color: white;">Add to Cart</a></button>
+          </div>
+        </div>
+      </div>
+     <!-- Right: Product Info -->
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2>Icecream Cake</h2>
+        <h3 class="text-success"><del class="text-danger">Rs.800 </del> Rs.680 only</h3>
+        <p class="text-primary">Free Shipping</p>
+        <h5>Product Details</h5>
+        <p> Delicious Chocolate-flavored ice cream cake topped with rich melted dark chocolate and choco chips. Made with rich creamy milk for a smooth and velvety texture. 100% vegetarian made with high quality ingredients.
+           Quantity : 1Kg.</p>
+            <h3>Choose the flavor</h3>
+
+<select>
+  <option value="#">Vanilla</option>
+  <option value="#">Chocolate</option>
+  <option value="#">Strawberry</option>
+  <option value="#">Mint Chocolate Chip</option>
+  <option value="#">Cookies and Cream</option>
+</select>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
